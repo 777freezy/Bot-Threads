@@ -82,6 +82,7 @@ export const PostWithData = (dayOfWeeek:string, hour: string):string => {
 }
 
 // aqui é a funcão que o bot usa para pegar o dia da semana e horario e converter para um valor que o framwork de agendamento usa.
+~~~
 ~~~typescript
 
 let messageData = { text: '', img: '' }
