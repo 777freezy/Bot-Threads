@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.2",
+    "node-schedule": "^2.1.1",
+    "redline": "^1.0.1",
+    "threads-api": "^1.4.0"
+  },
+  "scripts": {
+    "start": "tsc && node ./build/cliRedline.js",
+    "dev": "ts-node src/cliRedline.ts"    
+  }
+}
